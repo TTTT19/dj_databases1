@@ -1,4 +1,5 @@
 from django.db import models
+from django.views.generic import ListView
 
 
 class Phone(models.Model):
@@ -9,4 +10,3 @@ class Phone(models.Model):
     release_date = models.DateField()
     lte_exists = models.BooleanField()
     slug = models.TextField()
-
